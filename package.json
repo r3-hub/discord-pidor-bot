@@ -1,0 +1,16 @@
+{
+  "name": "pidorbot-slash",
+  "version": "1.0.0",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "sqlite3": "^5.1.2"
+  }
+}

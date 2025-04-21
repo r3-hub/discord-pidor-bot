@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS pidor_of_the_day (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    guildId TEXT NOT NULL,
+    userId TEXT NOT NULL,
+    date TEXT NOT NULL
+);
